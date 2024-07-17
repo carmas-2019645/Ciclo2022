@@ -9,8 +9,5 @@
         <module name="Veterinaria" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Veterinaria" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
