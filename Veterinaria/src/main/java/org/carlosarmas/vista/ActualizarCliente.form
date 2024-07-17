@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="defaultCloseOperation" type="int" value="1"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelActualizarCliente" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelActualizarCliente" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelActualizarCliente">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblNuevoIdCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblNuevoApellidoCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblNuevoEmailCliente" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                  <Component id="lblNuevaDireccionCliente" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                          <Component id="txtNuevoIdCliente" min="-2" pref="113" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                          <Component id="txtNuevoApellidoCliente" min="-2" pref="113" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblNuevoNombreCliente" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblNuevotTelefonoCliente" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtNuevoTelefonoCliente" min="-2" pref="162" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtNuevoNombreCliente" max="32767" attributes="0"/>
+                                          <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtNuevaDireccionCliente" min="-2" pref="306" max="-2" attributes="0"/>
+                                      <Component id="txtNuevoEmailCliente" min="-2" pref="303" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblNota" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblNuevaMascotaCliente" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblNuevoNombreMasCliente" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtNuevaMascotaCliente" pref="317" max="32767" attributes="0"/>
+                              <Component id="txtActualizarNombreMascotaCliente" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                          <Component id="lblViejoIdCliente" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="txtViejoIdCliente" min="-2" pref="159" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="botonActualizarCliente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblViejoIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtViejoIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" pref="35" max="32767" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtNuevoIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevoIdCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevoNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoNombreCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevoApellidoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoApellidoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevotTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoTelefonoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevoEmailCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoEmailCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevaDireccionCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevaDireccionCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="lblNota" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevaMascotaCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevaMascotaCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="botonActualizarCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevoNombreMasCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtActualizarNombreMascotaCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblViejoIdCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Antiguo ID Cliente: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtViejoIdCliente">
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoIdCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo ID Cliente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoIdCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoNombreCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Nombre Cliente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoNombreCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoApellidoCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Apellido Cliente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoApellidoCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevotTelefonoCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Telefono Cliente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoTelefonoCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoEmailCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Email:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoEmailCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevaDireccionCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nueva Direccion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevaDireccionCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevaMascotaCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nueva Mascota:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevaMascotaCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoNombreMasCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Nombre Mascota: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtActualizarNombreMascotaCliente">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNota">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="NO OLVIDES QUE EN NUEVA MASCOTA DEBES  PONER SI TU MASCOTA ES UN PERRO U OTRO ANIMAL"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="botonActualizarCliente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Actualizar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonActualizarClienteActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="defaultCloseOperation" type="int" value="1"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="panelActualizarEmpleado" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelActualizarEmpleado" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelActualizarEmpleado">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jSeparator1" alignment="0" pref="606" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lblNuevoIdEmpleado" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="lblNuevoApellidoEmpleado" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="lblNuevoEmailEmpleado" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="lblNuevaDireccionEmpleado" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblNuevoPuesto" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblNuevaProfesion" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                                  <Component id="txtNuevoIdEmpleado" min="-2" pref="113" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                                  <Component id="txtNuevoApellidoEmpleado" min="-2" pref="113" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="lblNuevoNombreEmpleado" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblNuevotTelefonoEmpleado" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtNuevoTelefonoEmpleado" pref="162" max="32767" attributes="0"/>
+                                              <Component id="txtNuevoNombreEmpleado" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtNuevoPuestoEmpleado" pref="317" max="32767" attributes="0"/>
+                                              <Component id="txtNuevaProfesionEmpleado" alignment="0" pref="317" max="32767" attributes="0"/>
+                                              <Component id="txtNuevaDireccionEmpleado" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="txtNuevoEmailEmpleado" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                                  <Component id="lblViejoIdEmpleado" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Component id="txtViejoIdEmpleado" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="278" max="-2" attributes="0"/>
+                                  <Component id="botonActualizarEmpleado" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblViejoIdEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtViejoIdEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtNuevoIdEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevoIdEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevoNombreEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoNombreEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevoApellidoEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoApellidoEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevotTelefonoEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoTelefonoEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevoEmailEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoEmailEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevaDireccionEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevaDireccionEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblNuevoPuesto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNuevoPuestoEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtNuevaProfesionEmpleado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNuevaProfesion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="botonActualizarEmpleado" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblViejoIdEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Antiguo ID Empleado: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtViejoIdEmpleado">
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoIdEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo ID Empleado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoIdEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoNombreEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Nombre Empleado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoNombreEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoApellidoEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Apellido Empleado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoApellidoEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevotTelefonoEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Telefono Empleado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoTelefonoEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoEmailEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Email:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoEmailEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevaDireccionEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nueva Direccion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevaDireccionEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevoPuesto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nuevo Puesto:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevoPuestoEmpleado">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblNuevaProfesion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nueva Profesion: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNuevaProfesionEmpleado">
+        </Component>
+        <Component class="javax.swing.JButton" name="botonActualizarEmpleado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Actualizar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonActualizarEmpleadoActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
